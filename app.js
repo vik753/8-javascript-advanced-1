@@ -5,7 +5,6 @@ let weatherMap = new Map([
 	['Kyiv', 7],
 	['Paris', 14]
 ]);
-///test comment
 
 weatherMap = new Map([...weatherMap].map(v => v.reverse()))
 
